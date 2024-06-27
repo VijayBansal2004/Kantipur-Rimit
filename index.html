@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kantipur Remit - html, css, js, Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <!--Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg justify-content-center">
+        <div class="container">
+          <a class="navbar-brand" href="#home">
+            <img src="./assits/brand-logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link font-bold-500"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-bold-500" href="#aboutus">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-bold-500" href="#howitworks"
+                  >How It Works</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-bold-500" href="#contactus"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+
+            <button class="btn btn-white" type="submit">Sign In</button>
+            <button class="btn bg-red" type="submit">Register</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- section-1 -->
+      <div id="home" class="section-1 position-relative ">
+        <div
+          class="section-1-left-right-container max-width d-flex flex-column-reverse flex-lg-row align-items-center"
+        >
+          <div class="section-1-left text-white">
+            <div class="section-1-left-top ">
+              <h1 class="font-bold">Kantipur Remit</h1>
+              <p>Bridging the gap betwen Australia and Nepal in a tap.</p>
+            </div>
+            <div class="section-1-left-middle">
+              <div class="section-1-left-middle-first position-relative">
+                <img
+                  src="./assits/section-1-left-middle.svg"
+                  alt="background image"
+                  class="position-absolute z-1"
+                />
+
+                <p class="section-1-left-middle-p position-absolute z-2">
+                  Special Offer for New Customers
+                </p>
+                <div class="text-center">hello</div>
+              </div>
+              <div>
+                <h1 class="section-1-left-middle-second">AUD to NPR</h1>
+                <p class="section-1-left-middle-second-first">
+                  Get The Best Exchange Rate Australia to Nepal here!
+                </p>
+                <p
+                  class="section-1-left-middle-second-second para opacity-point-9"
+                >
+                  Now transfer Aussie dollars to Nepal effortlessly with our
+                  app, and enjoy exclusive offers for first-time users, making
+                  your transactions both seamless and rewarding.
+                </p>
+              </div>
+            </div>
+            <div class="section-1-left-bottom">
+              <div class="section-1-left-bottom-first">
+                <p class="bg-oringe">No fees</p>
+                <p class="next-bg-red opacity-point-9">
+                  on your first transfer with Kantipur Rimit
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="section-1-right ">
+            <img src="./assits/section-1-right-img.png" alt="section-1-img" />
+          </div>
+        </div>
+        <div
+          class="section-1-bottom text-white d-flex align-items-center justify-content-center flex-column"
+        >
+          <p class="text-center opacity-point-9">
+            "Each customer is eligible for enrollment only once to ensure fair
+            distribution of benefits; repetitive enrollments are not permitted."
+            Any rates shown are subject to change. The promotional FX rate
+            applies to the first AUD 1,000.00 sent.
+            <b class="font-bold-600"> Terms and Conditions </b> apply.
+          </p>
+        </div>
+      </div>
+
+      <!-- section-2 -->
+      <div
+        class="section-2 d-flex flex-column flex-lg-row align-items-center justify-content-center max-width"
+      >
+        <div
+          class=" section-2-left transition hide-to-right reveal  position-relative d-flex align-items-center justify-content-between flex-column"
+        >
+          <img
+            class="section-2-left-bg position-absolute z-n1"
+            src="./assits/section-2-left-bg.png"
+            alt="background"
+          />
+          <img
+            class="section-2-left-img position-relativez-1"
+            src="./assits/section-2-left-img.svg"
+            alt="section-2-left-img"
+          />
+        </div>
+        <div class="section-2-right transition hide-to-bottom reveal">
+          <div class="section-2-right-top">
+            <h2 class="color-dark-blue-text fw-bold">
+              Send money to Nepal with Kantipur Remit
+            </h2>
+          </div>
+          <div class="section-2-right-middle color-dark-blue-text">
+            <p class="section-2-right-middle-heading ">
+              Download the app today for:
+            </p>
+            <p class="section-2-right-middle-points ">
+              - Send money in just a few taps
+            </p>  
+            <p class="section-2-right-middle-points ">- Hassle-free solution</p>
+            <p class="section-2-right-middle-points ">
+              - For quick, reliable transfer
+            </p>
+            <p class="section-2-right-middle-points ">
+              - Always the most competitive exchange rate
+            </p>
+            <p class="section-2-right-middle-points ">
+              - Experience the ease of international remittance at your
+              fingertips
+            </p>
+          </div>
+          <div class="section-2-right-bottom">
+            <img
+              class="section-2-right-qr-code transition hide-to-bottom reveal"
+              src="./assits/qr-code2.png"
+              alt="QR code"
+            />
+            <img class="store transition hide-to-bottom reveal" src="./assits/google.png" alt="Google play" />
+            <img class="store transition hide-to-bottom reveal" src="./assits/appstore.png" alt="App store" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Section-3 -->
+    <div id="aboutus" class="section-3 position-relative"> 
+      <div class=" gap-2 section-3-container">
+        <div class="max-width d-flex align-items-center flex-column-reverse flex-lg-row">
+          <div class="section-3-left">
+           <div class="section-3-left-first">
+            <h2 class="text-white fw-bold">Why to send money with Kantipur Remit?</h2>
+            <p class="bg-white fw-bold">
+              Transfer money to your loved ones with no complications and no
+              costly process of bank accounts in Nepal.
+            </p>
+          </div>
+          <div class="section-3-left-second white-bg-box d-flex gap-3 section-3-left-boxes transition hide-to-right reveal">
+            <div>
+              <img src="./assits/tick.png" alt="tick" />
+            </div>
+            <div>
+              <h4 class="">Free first transaction</h4>
+              <p>
+                Our first transaction is free for our new customers. We allow our
+                customers to experience our service for free!!! Find the
+                difference by giving us a try.
+              </p>
+            </div>
+          </div>
+          <div class="section-3-left-third white-bg-box d-flex gap-3 section-3-left-boxes transition hide-to-right reveal">
+            <div>
+              <img src="./assits/tick.png" alt="tick" />
+            </div>
+            <div>    
+              <h4 class="">Highly competitive rates & low fees</h4>
+              <p>
+                Always highly competitive exchange rate and low service charge. We ensure your loved ones receive the most competitive value.
+              </div>
+            </p>
+          </div>
+          <div class="section-3-left-forth white-bg-box d-flex gap-3 section-3-left-boxes transition hide-to-right reveal">
+            <div>
+              <img src="./assits/tick.png" alt="tick" />
+            </div>
+            <div>
+              <h4 class="">Seamless & secure transfers</h4>
+              <p>
+                Our highly user-friendly platform enables you to transfer money more quickly and safely, with transparency throughout the whole process.
+              </div>
+            </p>
+          </div>
+        </div>
+        <div class="section-3-right text-center">
+          <img src="./assits/section-3-right-img.png" alt="section-3-img" />
+        </div>
+</div>
+
+      </div>
+    </div>
+
+      <!-- section-4 -->
+      <div id="howitworks" class="section-4 max-width">
+        <div class="section-4-top">
+          <h2>Send money to Nepal via Kantipur Remit in just 4 easy steps</h2>
+        </div>
+        <div
+          class="section-4-container d-flex flex-column flex-lg-row align-items-center"
+        >
+          <div class="section-4-left transition hide-to-bottom reveal text-center position-relative">
+            <img
+              class="position-absolute z-1 play-btn"
+              src="./assits/play-button.svg"
+              alt="Play" 
+            />
+            <img src="./assits/section-4-left-bg.png" alt="background" />
+          </div>
+          <div class="section-4-right">
+            <div class="section-4-right-first d-flex gap-2 position-relative">
+              <span class="bg-primary position-absolute">1</span>
+              <div class="margin-bottom-10 transition hide-to-bottom reveal">
+                <p class="section-4-right-heading">Create your free account</p>
+                <p class="sub-text">
+                  Simply register on our website or get our app from Google Play
+                  or the App Store. For a simple and hassle-free signup, use
+                  your email address.
+                </p>
+              </div>
+            </div>
+            <div class="section-4-right-sectond d-flex gap-2 position-relative">
+              <span class="position-absolute">2</span>
+              <div class="margin-bottom-10 transition hide-to-bottom reveal">
+                <p class="section-4-right-heading">Get verified in minutes</p>
+                <p class="sub-text">
+                  Just select the currency, desired amount, and the delivery
+                  time. Once you are done with these formalities, upload your
+                  documents for the KYC. Our team will verify you in minutes and
+                  you can start sending the money right away!
+                </p>
+              </div>
+            </div>
+            <div class="section-4-right-third d-flex gap-2 position-relative">
+              <span class="position-absolute">3</span>
+              <div class="margin-bottom-10 transition hide-to-bottom reveal">
+                <p class="section-4-right-heading">
+                  Choose your payment method
+                </p>
+                <p class="sub-text">
+                  Select the payment method of your choice for your transfer.
+                </p>
+              </div>
+            </div>
+            <div class="section-4-right-forth d-flex gap-2 position-relative">
+              <span class="position-absolute">4</span>
+              <div class="transition hide-to-bottom reveal">
+                <p class="section-4-right-heading">
+                  Start your transaction send with assurance
+                </p>
+                <p class="sub-text">
+                  Now, enter the details of your recipient's, review everything,
+                  and confirm your transfer. Seamlessly track your transaction
+                  on the app or either on the website.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- section-5 -->
+      <div
+        class="section-5 d-flex justify-content-around flex-column-reverse flex-lg-row align-items-center text-white  max-width"
+      >
+        <div class="section-5-left">
+          <div class="section-5-left-first margin-bottom text-center text-lg-start">
+            <h2 class="">Download The App Now!</h2>
+          </div>
+          <div class="section-5-left-second margin-bottom text-center text-lg-start">
+            <p class="opacity-point-9">
+              Send money across borders with ease, because distance shouldn't
+              limit connections.
+            </p>
+          </div>
+          <div class="section-5-left-third align-items-center margin-bottom d-flex gap-3 text-center">
+            <div class="d-flex align-items-center">
+              <img class="store transition hide-to-right reveal" src="./assits/appstore.png" alt="app store" />
+              <img class="store transition hide-to-right reveal"  src="./assits/google.png" alt="Google" />
+            </div>
+            <div class="position-relative or-container transition hide-to-right reveal">
+              <p class="or-dash or-dash-first position-absolute">-</p>
+              <p class="position-center or">or</p>
+              <p class="or-dash or-dash-second position-absolute">-</p>
+            </div>
+            <div class="qr-code-container d-flex gap-2 transition hide-to-right reveal">
+              <img id="qr-code" src="./assits/qr-code.png" alt="QR code" />
+            
+              <p class="sub-sub-text opacity-point-9">Scan QR with your phone to get the app</p>
+            </div>
+          </div>
+        </div>
+        <div class="section-5-right ">
+          <img src="./assits/section-5-right.png" alt="section-5-right-img" />
+        </div>
+      </div>
+
+      <!-- section-6 -->
+      <div class="section-6 max-width">
+        <div class="section-6-top text-center">
+          <h2 class="">
+            Effortless cross-border money transfers Australia to Nepal
+          </h2>
+          <p class="">
+            Transfer funds seamlessly from Australia to Nepal with just a few
+            clicks.
+          </p>
+        </div>
+        <div
+          class="section-6-middle d-flex flex-wrap justify-content-center flex-wrap align-items-center"
+        >
+          <div class="transition hide-to-right reveal">
+            <img
+              src="./assits/section-6-first.png"
+              alt="section-6-middle-img"
+            />
+          </div>
+          <div class="transition hide-to-right reveal">
+            <img
+              src="./assits/section-6-second.png"
+              alt="section-6-middle-img"
+            />
+          </div>
+          <div class="transition hide-to-right reveal">
+            <img
+              src="./assits/section-6-third.png"
+              alt="section-6-middle-img"
+            />
+          </div>
+          <div class="transition hide-to-right reveal">
+            <img
+              src="./assits/section-6-forth.png"
+              alt="section-6-middle-img"
+            />
+          </div>
+          <div class="transition hide-to-right reveal">
+            <img
+              src="./assits/section-6-fifth.png"
+              alt="section-6-middle-img"
+            />
+          </div>
+          <div class="transition hide-to-right reveal">
+            <img src="./assits/section-6-six.png" alt="section-6-middle-img" />
+          </div>
+          <div class="transition hide-to-right reveal">
+            <img
+              src="./assits/section-6-seventh.png"
+              alt="section-6-middle-img"
+            />
+          </div>
+        </div>
+        <div class="section-6-bottom container">
+          <p class="text-center opacity-point-9">
+            Start Sending Money Today.
+            <a class="opacity-point-9" href="#">Click Here</a>
+            for Seamless Transfers from Australia to Nepal!
+          </p>
+        </div>
+      </div>
+
+      <!-- section-7 -->
+      <div class="section-7-bg-color">
+      <div class="section-7 d-flex flex-lg-row justify-content-center align-items-center">
+        <div class="section-7-left text-center">
+          <img src="./assits/section-7-right.png" alt="section-7-left-img" />
+        </div>
+        <div class="section-7-right">
+          <div class="section-7-right-top text-start">
+            <h2 class="transition hide-to-bottom reveal">Frequently ask question</h2>
+            <p class="transition hide-to-bottom reveal">Just find your answers below</p>
+          </div>
+          <div class="section-7-right-middle">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item transition hide-to-right reveal">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    What is the cost of sending money to Nepal?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    We work hard to provide reasonable exchange rates and costs.
+                    Your selected payment method, the shipping speed you've
+                    selected, and the quantity you're sending will all affect
+                    the final price. Before finalizing your transfer, you will
+                    see the entire fee up front.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item transition hide-to-right reveal">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    How can I pay for my money transfer?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item transition hide-to-right reveal">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    In what methods may one receive a money transfer?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item transition hide-to-right reveal">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseForth"
+                    aria-expanded="false"
+                    aria-controls="collapseForth"
+                  >
+                    Is it safe to send money online with Kantipur Remit?
+                  </button>
+                </h2>
+                <div
+                  id="collapseForth"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-7-right-bottom text-start">
+            <p class="section-7-right-bottom-first">Still have questions?</p>
+            <p class="section-7-right-bottom-second para ">
+              Can't find the answer you're looking for? Please contact with our
+              service.
+            </p>
+            <button class="btn btn-primary" type="submit">Contact Us</button>
+          </div>
+       </div>
+      </div>
+      </div>
+
+      <!-- section-8 -->
+      <div class="section-8">
+        <div class="section-8-top">
+          <h2 class="">Trust in seamless AUD to NPR money transfers</h2>
+        </div>
+        <div class="section-8-middle">
+          <p class="">Sending and Receiving with swift certainty.</p>
+        </div>
+        <div class="section-8-bottom">
+          <button class="btn btn-primary" type="submit">Send Now</button>
+        </div>
+      </div>
+
+      <!-- section-9 -->
+      <div class="section-9 max-width">
+        <div class="section-9-top">
+          <h2 class="text-center">
+            Let's make your transfer count. 
+          </h2>
+          <h2 class="text-center">How much would you like to send
+            today?</h2>
+        </div>
+        <div class="section-9-bottom">
+          <div
+            class="section-9-container section-9-container-one d-flex flex-wrap justify-content-center align-items-center"
+          >
+            <p class="transition hide-to-right reveal">5 AUD</p>
+            <p class="transition hide-to-right reveal">10 AUD</p>
+            <p class="transition hide-to-right reveal">20 AUD</p>
+            <p class="transition hide-to-right reveal">50 AUD</p>
+            <p class="transition hide-to-right reveal">100 AUD</p>
+            <p class="transition hide-to-right reveal">200 AUD</p>
+           
+          </div>
+           <div  class="section-9-container section-9-container-two d-flex flex-wrap justify-content-center align-items-center">
+            <p class="transition hide-to-right reveal">500 AUD</p>
+            <p class="transition hide-to-right reveal">1000 AUD</p>
+            <p class="transition hide-to-right reveal">2000 AUD</p>
+            <p class="transition hide-to-right reveal">5000 AUD</p>
+            <p class="transition hide-to-right reveal">10000 AUD</p>
+        </div>
+        </div>
+      </div>
+    </main>
+<!-- footer -->
+    <footer>
+      <div id="contactus" class="footer ">
+        <div
+          class="footer-first hide-to-bottom reveal max-width gap-3 d-flex justify-content-between align-items-start flex-column flex-md-row align-items-md-center text-center text-md-start"
+        >
+          <div class="footer-first-first max-width-55 ">
+            <h3 class="">Download the App</h3>
+            <p class="opacity-point-8">
+              Send money to your loved ones securely and easily with our easy to
+              use app.
+            </p>
+          </div>
+          <div
+            class="footer-first-second text-md-end text-center"
+          >
+            <img class="store" src="./assits/google.png" alt="Google" />
+            <img class="store" src="./assits/appstore.png" alt="app store" />
+          </div>
+        </div>
+        <hr />
+        <div
+          class="footer-second hide-to-bottom reveal max-width d-flex gap-3 justify-content-between flex-column flex-md-row text-center text-md-start"
+        >
+          <div class="footer-second-first max-width-55">
+            <p>+61 412 712 251</p>
+            <p>+61 432 415 809</p>
+            <p>contact@kantipurremit.com</p>
+          </div>
+          <div
+            class="footer-second-second d-flex gap-4 justify-content-between align-items-center"
+          >
+            <p class="Facebook">Facebook</p>
+            <p class="Linkedin">Linkedin</p>
+            <p class="Instagram">Instagram</p>
+            <p class="Viber">Viber</p>
+          </div>
+        </div>
+        <div class="footer-third hide-to-bottom reveal max-width">
+          <p class="text-md-start text-center opacity-point-8">
+            suite 208 level 2 288 Forest Road Hurstville NSW 2220
+          </p>
+        </div>
+        <div
+          class="footer-forth hide-to-bottom reveal d-flex justify-content-between max-width flex-column flex-md-row text-center text-md-start"
+        >
+          <div class="footer-forth-first max-width-55">
+            <span class="font-size-point-8rem line-height-19"
+              >Privacy Policy</span
+            >
+            <span class="font-size-point-8rem line-height-19"
+              >Terms and Conditions</span
+            >
+            <span class="font-size-point-8rem line-height-19"
+              >User Agreement</span
+            >
+            <span class="font-size-point-8rem line-height-19"
+              >Social Media Policy</span
+            >
+            <span class="font-size-point-8rem line-height-19"
+              >Modern-Slavery Policy</span
+            >
+            <span class="font-size-point-8rem line-height-19"
+              >Cookie Policy</span
+            >
+            <span class="font-size-point-8rem line-height-19"
+              >Mobile App Terms</span
+            >
+            <span class="font-size-point-8rem line-height-19"
+              >Mobile App Privacy Policy</span
+            >
+          </div>
+          <div class="footer-forth-second ">
+            <p class="opacity-point-8">
+              Copyright &copy; 2023 Kantipur Remit All rights reserved, Powered
+              By New Vision Services.(ABN 33 651 476 461)
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+
+    <script>
+      // $(document).ready(function(){
+      //   $(".section-2-left").scroll(function(){
+      //     $(".section-2-left").removeClass("hide-to-bottom");
+      //     $(".section-2-left").addClass("showX");
+      //   });
+      // });
+    </script>
+  </body>
+</html>

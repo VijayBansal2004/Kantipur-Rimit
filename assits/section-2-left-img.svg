@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="407.773" height="361.448" viewBox="0 0 407.773 361.448">
+  <defs>
+    <filter id="Rectangle_2797" x="0.001" y="0" width="407.773" height="361.448" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_63966" x="0" y="213.123" width="407.772" height="148.324" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_7912" data-name="Group 7912" transform="translate(-319.421 -1282.954)">
+    <g transform="matrix(1, 0, 0, 1, 319.42, 1282.95)" filter="url(#Rectangle_2797)">
+      <rect id="Rectangle_2797-2" data-name="Rectangle 2797" width="377.773" height="331.447" rx="23" transform="translate(15 11)" fill="#fff"/>
+    </g>
+    <path id="Rectangle_2799" data-name="Rectangle 2799" d="M23,0H354.773a23,23,0,0,1,23,23V64.047a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V23A23,23,0,0,1,23,0Z" transform="translate(334.422 1293.953)" fill="#004a86"/>
+    <g transform="matrix(1, 0, 0, 1, 319.42, 1282.95)" filter="url(#Path_63966)">
+      <path id="Path_63966-2" data-name="Path 63966" d="M535,186.448V288.656c0,8.269-12.012,14.966-26.84,14.966H184.064c-14.828,0-26.84-6.7-26.84-14.966V186.274l17.173,8.738,19.115-9.715,19.082,9.715,19.115-9.715,19.082,9.715,19.114-9.715,19.05,9.715L308.07,185.3l19.111,9.715,19.086-9.715,19.111,9.715,19.114-9.715,19.082,9.715L422.69,185.3l19.082,9.715,19.082-9.715,19.115,9.715,19.082-9.715,19.082,9.715Z" transform="translate(-142.22 38.83)" fill="#004a86"/>
+    </g>
+    <text id="Send_Money_To_Nepal" data-name="Send Money To Nepal" transform="translate(520 1338)" fill="#fefdfe" font-size="24" font-family="Inter-Bold, Inter" font-weight="700"><tspan x="-126" y="0">Send Money To Nepal</tspan></text>
+    <rect id="Rectangle_2798" data-name="Rectangle 2798" width="379" height="29" transform="translate(334 1395)" fill="#1cb2e0"/>
+    <text id="Delivery_method" data-name="Delivery method" transform="translate(438 1416)" fill="#fefdfe" font-size="17" font-family="Inter-Bold, Inter" font-weight="700"><tspan x="-68" y="0">Delivery method</tspan></text>
+    <text id="Bank_Deposit" data-name="Bank Deposit" transform="translate(369 1460)" fill="#004a86" font-size="17" font-family="Inter-Medium, Inter" font-weight="500"><tspan x="0" y="0">Bank Deposit</tspan></text>
+    <text id="_0" data-name="$0" transform="translate(641 1460)" fill="#004a86" font-size="18" font-family="Inter-Medium, Inter" font-weight="500"><tspan x="0" y="0">$0</tspan></text>
+    <text id="Fees" transform="translate(655 1416)" fill="#fefdfe" font-size="16" font-family="Inter-Bold, Inter" font-weight="700"><tspan x="-18" y="0">Fees</tspan></text>
+    <text id="Fees_for_when_you_send_from_AUD_to_NPR" data-name="Fees for when you send  from AUD to NPR" transform="translate(520 1381)" fill="#1a3d8b" font-size="15" font-family="Inter-Medium, Inter" font-weight="500"><tspan x="-150" y="0" xml:space="preserve">Fees for when you send  from </tspan><tspan y="0" font-family="Inter-Bold, Inter" font-weight="700">AUD</tspan><tspan y="0" xml:space="preserve"> to </tspan><tspan y="0" font-family="Inter-Bold, Inter" font-weight="700">NPR</tspan></text>
+    <text id="No_fees_on_your_first_transfer_with_Kantipur_Remit._New_customers_only._One_per_customer._Limited_time_offer._See_Terms_and_Conditions_for_details." data-name="No fees on your first transfer with Kantipur Remit. New customers only. One per customer. Limited time offer. See Terms and Conditions for details." transform="translate(349 1535)" fill="#fefdfe" font-size="12" font-family="Inter-Light, Inter" font-weight="300"><tspan x="0" y="12">No fees on your first transfer with Kantipur Remit. New </tspan><tspan x="0" y="29">customers only. One per customer. Limited time offer. See </tspan><tspan x="0" y="46" font-family="Inter-SemiBold, Inter" font-weight="600">Terms and Conditions</tspan><tspan y="46" xml:space="preserve"> for details.</tspan></text>
+  </g>
+</svg>
