@@ -182,7 +182,7 @@ nav .container {
 /* section-1 */
 .section-1 {
   margin-bottom: 129px;
-  background: transparent url("./assits/section-1-background.png") 0% 0%
+  background: transparent url("./assits/section-1-background.webp") 0% 0%
     no-repeat padding-box;
   background-position: center;
   background-size: cover;
@@ -335,7 +335,7 @@ nav .container {
 /* section-3 */
 .section-3 {
   color: var(--color-dark-blue-text);
-  background: transparent url("./assits/section-3-bg.png") 0% 0% no-repeat
+  background: transparent url("./assits/section-3-bg.webp") 0% 0% no-repeat
     padding-box;
   background-size: cover;
   background-position: center;
